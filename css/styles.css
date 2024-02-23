@@ -250,6 +250,7 @@ body{
 
 .container-proyect{
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
 .title-container-proyect{
@@ -267,7 +268,7 @@ body{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #eb233c;
     border-left: 2px solid rgb(16, 103, 253);
     animation: animation 4s steps(12) infinite;
 }
@@ -475,7 +476,7 @@ body{
     padding: 20px 0px;
 }
 
-@media screen and (max-width: 996px)  {
+@media screen and (min-width: 996px)  {
     
     .container-ltl-izq{
         display: none;
