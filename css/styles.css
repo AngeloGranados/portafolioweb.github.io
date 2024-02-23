@@ -35,6 +35,10 @@ body{
     z-index: 999999999;
 }
 
+.container{
+    overflow: hidden;
+}
+
 .preload .container-text-preload{ 
     text-align: center;
     color: #fff;
@@ -251,7 +255,6 @@ body{
 
 .container-proyect{
     margin-bottom: 50px;
-    overflow: hidden;
 }
 
 .title-container-proyect{
@@ -535,32 +538,95 @@ body{
         cursor: pointer;
     }
 
+    /* CONTAINER DESCRIPTION */
+
     .container-description{
         height: calc(100vh + 210px);
     }
+
+    .box-desc img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .box-desc .box-desc-text{
+        padding: 20px 5px;
+    }
     
     .box-desc .box-desc-text h1{
-        font-size: 2rem;
         text-align: center;
+        font-size: 1.8rem;
+        font-weight: bold;
     }
     
     .box-desc .box-desc-text h2{
-        font-size: 1.2rem;
+        text-align: center;
+        font-size: 1rem;
+        margin: 15px 0px;
     }
-
+    
     .box-desc .box-desc-text button{
-        width: 100%;
+        width: 300px;
     }
 
+
+    /* container aboutme */
 
     .container-aboutme{
+        min-width: 100%;
         display: grid;
+        box-sizing: border-box;
         grid-template-columns: 1fr;
         gap: 30px;
     }
 
+    .box-img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .box-img-aboutme img{
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    .box-desc-aboutme p{
+        font-size: .80rem;
+    }
+    
+    .aboutme-description{
+        font-size: .75rem;
+        margin: 20px 0px;
+    }
+    
+    .box-desc-aboutme h2{
+       font-size: 1.5rem;
+    }
+    
+    .box-desc-aboutme .box-items h3{
+        font-size: 1.2rem;
+    }
+    
+    .box-desc-aboutme .box-items .items{
+        font-size: .60rem;
+    }
+    
+    .box-desc-aboutme .box-items .items span{
+        padding: 5px 10px;
+        background-color: black;
+        margin-left: 5px;
+        color: antiquewhite;
+    }
+
+
+    /* CONTAINER CONTACT */
+
+    .box-desc-contact{
+        background-size: 700px;
+    }
+
     .contact-text{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     .footer-icons{
@@ -572,17 +638,12 @@ body{
     }
     
     .footer-icons li a{
-        border-radius: 50%;
-        color: black;
-        display: flex;
         width: 35px;
         height: 35px;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid black;
     }
 
 
+    /* CONTAINER PROYECTS */
 
     .proyects-cards{
         grid-template-columns: 1fr;
@@ -596,7 +657,19 @@ body{
         border-radius: 15px;
         box-shadow: 0px 5px 20px -5px #333;
     }
- 
 
+    /* FOTEER */
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .footer-text{
+        font-size: .80rem;
+        padding: 20px 0px;
+    }
+ 
 }
 
