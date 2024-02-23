@@ -179,7 +179,7 @@ body{
     margin: 15px 0px;
 }
 
-.box-desc .box-desc-text button{
+.box-desc .box-desc-text a{
     width: 100%;
 }
 
@@ -565,7 +565,7 @@ body{
         margin: 15px 0px;
     }
     
-    .box-desc .box-desc-text button{
+    .box-desc .box-desc-text a{
         width: 300px;
     }
 
