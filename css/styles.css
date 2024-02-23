@@ -268,7 +268,7 @@ body{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: #eb233c;
+    background-color: #fff;
     border-left: 2px solid rgb(16, 103, 253);
     animation: animation 4s steps(12) infinite;
 }
