@@ -1,8 +1,9 @@
 const preload = document.getElementById("preload");
 
+window.scrollTo(0, 0);
+document.body.setAttribute("style", "overflow : hidden;");
+
 window.addEventListener("load", ()=>{
-    window.scrollTo(0, 0);
-    document.body.setAttribute("style", "overflow : hidden;");
     
     setTimeout(()=>{
         preload.setAttribute("style", "display:none;");
